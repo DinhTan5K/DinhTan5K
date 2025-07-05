@@ -6,5 +6,5 @@
 
 ## 🐍 Snake Animation:
 
-![Snake animation](https://github.com/DinhTan5K/DinhTan5K/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/DinhTan5K/DinhTan5K/output/snake.svg)
 
