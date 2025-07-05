@@ -1,7 +1,11 @@
-- 👋 Hi, I’m @DinhTan
+## 📊 My GitHub Stats
 
+![My Stats](https://github-readme-stats.vercel.app/api?username=DinhTan5K&show_icons=true&theme=dark)
 
-<!---
-DinhTan5K/DinhTan5K is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+## 🏆 Most Used Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DinhTan5K&layout=compact&theme=dark)
+
+![My Stats](https://github-readme-stats.vercel.app/api?username=DinhTan5K&show_icons=true&theme=tokyonight&count_private=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=DinhTan5K&layout=compact&langs_count=8&theme=tokyonight)
