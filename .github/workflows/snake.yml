@@ -1,28 +1,29 @@
 name: Generate Snake Animation
 
 on:
+  push:
+    branches:
+      - main
   schedule:
-    - cron: "0 0 * * *" # Chạy tự động mỗi ngày lúc 0h UTC
-  workflow_dispatch:    # Cho phép tự bấm "Run workflow" trên GitHub
+    - cron: "0 0 * * *"  # Tự chạy mỗi ngày
 
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Generate Snake Animation
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: DinhTan5K
           outputs: dist/snake.svg
 
-      - name: Push snake.svg to profile
-        uses: EndBug/add-and-commit@v9
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          author_name: github-actions
-          author_email: github-actions@github.com
-          message: "Generate Snake Animation"
-          add: "dist/snake.svg"
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
