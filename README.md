@@ -6,5 +6,7 @@
 
 ## 🐍 Snake Animation:
 
-![Snake animation](https://raw.githubusercontent.com/DinhTan5K/DinhTan5K/output/snake.svg)
+
+![snake](https://raw.githubusercontent.com/DinhTan5K/DinhTan5K/output/snake.svg)
+
 
